@@ -120,22 +120,6 @@ a:hover {
   text-align: right;
 }
 
-.visually-hidden {
-  /* Contain text within 1px box */
-  height: 1px;
-  overflow: hidden;
-  width: 1px;
-  /* Keep the layout */
-  position: absolute;
-  /* Remove any visible trace (e.g. background color) */
-  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
-  clip: rect(1px, 1px, 1px, 1px);
-  -webkit-clip-path: inset(50%);
-          clip-path: inset(50%); /* browsers in the future */
-  /* Prevent the screen reader to skip spaces between words */
-  white-space: nowrap;
-}
-
 .none {
   display: none !important;
 }
@@ -698,6 +682,7 @@ a:hover {
   overflow: hidden;
   position: relative;
   text-align: center;
+  padding-bottom: 180px;
 }
 .video::after {
   content: "IV";
@@ -717,6 +702,7 @@ a:hover {
   position: relative;
   display: inline-block;
   text-align: center;
+  margin-top: 50px;
 }
 .video__link::before {
   content: "";
@@ -756,6 +742,11 @@ a:hover {
           filter: saturate(1.5);
 }
 
+.title-reviews {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
 .slider-section {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -766,10 +757,9 @@ a:hover {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: #232533;
-  overflow-x: hidden;
-  height: 100vh;
+  height: 500px;
   font-family: "Urbanist", sans-serif;
+  margin-bottom: 200px;
 }
 
 .slider {
@@ -897,6 +887,7 @@ a:hover {
   font-size: 15.5px;
   color: #eceaed;
   letter-spacing: 3px;
+  height: 100px;
 }
 
 .card .btn-contact {
@@ -1008,7 +999,7 @@ a:hover {
 }
 
 .feedback {
-  padding-bottom: 180px;
+  padding-bottom: 150px;
 }
 @media screen and (max-width: 959px) {
   .feedback {
