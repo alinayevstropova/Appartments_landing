@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LoftHouse</title>
+    <link rel="stylesheet" href="./scss/main.css" />
+    <link rel="stylesheet" href="./libs/youtubeLightbox/youtubeLightbox.css" />
+  </head>
+  <body>
+    <header class="header none1">
+      <div class="header__top">
+        <div class="container">
+          <div class="header__top-row">
+            <a href="#!"> PremiumAPP </a>
+
+            <div class="header__nav">
+              <nav class="nav">
+                <ul class="nav__list">
+                  <li><a href="#header">Main</a></li>
+                  <li><a href="#apartments">Appartments</a></li>
+                  <li><a href="#cta">Contacts</a></li>
+                  <li><a href="#slider">Reviews</a></li>
+                </ul>
+              </nav>
+            </div>
+
+            <div class="header__nav-btn">
+              <button class="nav-icon-btn">
+                <div class="nav-icon"></div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <h1 class="header__title">
+          Welcome Home! <br />
+          Best Appartments Here
+          <a href="#benefits">
+            <img src="./img/header/mouse.svg" alt="Scroll next" class="header__title-icon" />
+          </a>
+        </h1>
+      </div>
+
+      <div class="header__footer">
+        <div class="text-right">
+          <a href="#section-map" class="info info--map"> 123 Main Street, New York</a>
+        </div>
+        <a href="tel:+388888888888" class="info info--tel">+38 (888) 888 88 88</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="benefits none1">
+        <div class="container container--sm">
+          <div class="benefits__row">
+            <div class="benefits__item">
+              <img src="./img/benefits/bench.svg" alt="" class="benefits__item-img" />
+              <p class="benefits__item-text">Nearby parks and squares</p>
+            </div>
+
+            <div class="benefits__item">
+              <img src="./img/benefits/building.svg" alt="" class="benefits__item-img" />
+              <p class="benefits__item-text">Fully equipped</p>
+            </div>
+
+            <div class="benefits__item">
+              <img src="./img/benefits/fountain.svg" alt="" class="benefits__item-img" />
+              <p class="benefits__item-text">10 fountains on the territory</p>
+            </div>
+
+            <div class="benefits__item">
+              <img src="./img/benefits/bicycle.svg" alt="" class="benefits__item-img" />
+              <p class="benefits__item-text">6 kilometers of bike paths</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="apartments none1">
+        <div class="container">
+          <div class="apartments__title">
+            <h2 class="title-2">Our Appartments</h2>
+          </div>
+
+          <div class="apartments__cards">
+            <a href="#!" class="card">
+              <img class="card__img" src="./img/cards/01.jpg" alt="Пентхаус “Loft Олимп”" />
+              <h3 class="card__title">Appartment “Loft Premium”</h3>
+            </a>
+
+            <a href="#!" class="card">
+              <img class="card__img" src="./img/cards/02.jpg" alt="Пентхаус “Loft Олимп”" />
+              <h3 class="card__title">Appartment “Nice Loft”</h3>
+            </a>
+
+            <a href="#!" class="card">
+              <img class="card__img" src="./img/cards/03.jpg" alt="Пентхаус “Loft Олимп”" />
+              <h3 class="card__title">Appartment “Loft Studio”</h3>
+            </a>
+
+            <a href="#!" class="card">
+              <img class="card__img" src="./img/cards/04.jpg" alt="Пентхаус “Loft Олимп”" />
+              <h3 class="card__title">Appartment “Top Price Choice”</h3>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta none1">
+        <div class="container">
+          <div class="cta__title">
+            <h2 class="title-2">Explore Our Properties</h2>
+          </div>
+          <div class="cta__wrapper">
+            <div class="cta__text">
+              <p>
+                Browse our listings to discover a wide range of apartments to suit your needs and
+                preferences. From cozy studios to luxurious penthouses, we have something for
+                everyone. Take a virtual tour, view floor plans, and schedule a visit today!
+              </p>
+            </div>
+
+            <form action="" class="cta__form form">
+              <input type="text" class="form__input" placeholder="NAME" autocomplete="off" />
+              <input
+                data-tel-input
+                type="text"
+                class="form__input"
+                placeholder="PHONE"
+                autocomplete="off" />
+
+              <p class="form__privacy form__privacy--bottom">
+                *Data is totally secure. <br />Will not be used without your permition.
+              </p>
+
+              <button type="submit" class="form__btn">Check by myself</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section class="video none1">
+        <h2 class="title-2">Watch a video tour</h2>
+        <div class="container">
+          <a
+            href="https://www.youtube.com/embed/aN9DH_GxqEo?si=Pt-WOLJEXOx9z0R0"
+            data-youtubeLightbox
+            class="video__link">
+            <img src="./img/video/play.svg" alt="" class="video__icon" />
+            <img src="./img/video/video-img.jpg" alt="" class="video__img" />
+          </a>
+        </div>
+      </section>
+
+      <section class="feedback none1">
+        <div class="container">
+          <div class="feedback__title">
+            <h2 class="title-2">Have any questions?</h2>
+          </div>
+          <form class="feedback__form form">
+            <p class="form__privacy form__privacy--bottom">
+              *Data is totally secure. <br />Will not be used without your permition.
+            </p>
+
+            <input type="text" class="form__input" placeholder="NAME" autocomplete="off" />
+            <input
+              data-tel-input
+              type="text"
+              class="form__input"
+              placeholder="PHONE"
+              autocomplete="off" />
+
+            <button type="submit" class="form__btn">Call Me</button>
+          </form>
+        </div>
+      </section>
+      <section class="reviews">
+        <h1 class="title-reviews title-2">Reviews from happy owners</h1>
+        <div class="slider-section">
+          <div class="slider">
+            <div class="container">
+              <input type="radio" name="slider" class="d-none" id="s1" checked />
+              <input type="radio" name="slider" class="d-none" id="s2" />
+              <input type="radio" name="slider" class="d-none" id="s3" />
+              <input type="radio" name="slider" class="d-none" id="s4" />
+              <input type="radio" name="slider" class="d-none" id="s5" />
+
+              <div class="cards">
+                <label for="s1" id="slide1">
+                  <div class="card">
+                    <div class="image">
+                      <img src="img/slider/s1.jpeg" alt="" />
+                      <div class="dots">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                      </div>
+                    </div>
+                    <div class="infos">
+                      <span class="name">My Best Appartment</span>
+                      <span class="lorem"
+                        >Lorem ipsum dolor sit amet, sit amet adipiscing elit. Aenean vel ansd .
+                        Nullam lorem. Nulla eu sodales</span
+                      >
+                    </div>
+              
+                  </div>
+                </label>
+
+                <label for="s2" id="slide2">
+                  <div class="card">
+                    <div class="image">
+                      <img src="img/slider/s2.jpg" alt="" />
+                      <div class="dots">
+                        <div class="dot1"></div>
+                        <div class="dot2"></div>
+                        <div class="dot3"></div>
+                      </div>
+                    </div>
+                    <div class="infos">
+                      <span class="name">Recomend to Buy Here</span>
+                      <span class="lorem"
+                        >Lorem ipsum dolor sit, adipiscing elit. Aenean vel sit ansd . Nullam lorem.
+                        Nulla eu sodales karma stellus</span
+                      >
+                    </div>
+                    
+                  </div>
+                </label>
+
+                <label for="s3" id="slide3">
+                  <div class="card">
+                    <div class="image">
+                      <img src="img/slider/s3.jpg" alt="" />
+                      <div class="dots">
+                        <div class="dot1"></div>
+                        <div class="dot2"></div>
+                        <div class="dot3"></div>
+                      </div>
+                    </div>
+                    <div class="infos">
+                      <span class="name">Ideal Black Modern Loft</span>
+                      <span class="lorem"
+                        >Lorem ipsum dolor, sit amet let kar adipiscing. Aenean vel velit sit ansd .
+                        Nullam lorem. Nulla karma stellus</span
+                      >
+                    </div>
+                    
+                  </div>
+                </label>
+
+                <label for="s4" id="slide4">
+                  <div class="card">
+                    <div class="image">
+                      <img src="img/slider/s4.png" alt="" />
+                      <div class="dots">
+                        <div class="dot1"></div>
+                        <div class="dot2"></div>
+                        <div class="dot3"></div>
+                      </div>
+                    </div>
+                    <div class="infos">
+                      <span class="name">Moder Design Flat</span>
+                      <span class="lorem"
+                        >Lorem ipsum dolor sit, sit amet elit. Aenean sit amet sit amet vel velit
+                        sit ansd. Nulla eu sodales stellus</span
+                      >
+                    </div>
+                    
+                  </div>
+                </label>
+
+                <label for="s5" id="slide5">
+                  <div class="card">
+                    <div class="image">
+                      <img src="img/slider/s5.jpg" alt="" />
+                      <div class="dots">
+                        <div class="dot1"></div>
+                        <div class="dot2"></div>
+                        <div class="dot3"></div>
+                      </div>
+                    </div>
+                    <div class="infos">
+                      <span class="name">Best Place For Children</span>
+                      <span class="lorem"
+                        >Lorem ipsum sit amet, sit amet elit. Aenean vel velit ansd . Nullam lorem.
+                        Nulla eu sodales stellus</span
+                      >
+                    </div>
+                    
+                  </div>
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer none1">
+      <div class="container">
+        <div class="footer__grid">
+          <div class="footer__logo">
+            <a href="#!"> PremiumAPP </a>
+          </div>
+          <div class="footer__nav">
+            <nav>
+              <ul class="footer__nav-list">
+                <li><a href="#!">About us</a></li>
+                <li><a href="#!">Appartments</a></li>
+                <li><a href="#!">Credit</a></li>
+                <li><a href="#!">Contacts</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="footer__nav">
+            <nav>
+              <ul class="footer__nav-list">
+                <li><a href="#!">Settlement and Moving</a></li>
+                <li><a href="#!">Service Services</a></li>
+                <li><a href="#!">Environmental Sustainability</a></li>
+                <li><a href="#!">Investment Opportunities</a></li>
+                <li><a href="#!">Loyalty Program</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="footer__address">
+            <ul class="footer__nav-list">
+              <li>Adress: 123 Main Street, New York</li>
+              <li>Phone: <a href="tel:+38888888 88 88">+38 (888) 888 88 88</a></li>
+              <li>Working hours: 10:00 - 20:00</li>
+              <li>
+                E-mail: <a class="link-bold" href="mailto:vip@premiumapp.com">vip@premiumapp.com</a>
+              </li>
+            </ul>
+            <ul class="footer__socials">
+              <li>
+                <a href="#!"><img src="./img/socials/youtube.svg" alt="" /></a>
+              </li>
+              <li>
+                <a href="#!"><img src="./img/socials/vk.svg" alt="" /></a>
+              </li>
+              <li>
+                <a href="#!"><img src="./img/socials/facebook.svg" alt="" /></a>
+              </li>
+              <li>
+                <a href="#!"><img src="./img/socials/instagram.svg" alt="" /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- YouTube LightBox -->
+    <div id="youtubelightbox" class="youtubelightbox">
+      <div class="youtubelightbox__centeredchild">
+        <div class="youtubelightbox__videowrapper">
+          <div id="youtubelightboxPlayer"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./libs/phoneMask/mask.js"></script>
+    <script src="./libs/phoneMask/mask_list.js"></script>
+
+    <script src="./libs/youtubeLightbox/youtubeLightbox.js"></script>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
